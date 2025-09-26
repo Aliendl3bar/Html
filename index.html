@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+  <fieldset>
+    <legend>contact us</legend>
+    <label for="nom">Name :</label>
+<input type="text" id="name" name="name" aria-label="not completed" required>
+
+<label for="email">E-mail :</label>
+<input type="email" id="email" name="email" aria-label="e-mail" required>
+
+<label for="tel">Phone :</label>
+<input type="tel" id="pho" name="pho" pattern="[0-9]{10}" title="10 numbers " aria-label="telephone number">
+  <label for="message">Message :</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+<button type="submit">send</button>
+</fieldset>
+</form>
+</body>
+</html>
